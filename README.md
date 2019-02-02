@@ -1,4 +1,4 @@
-# folayan_f_music_mixer
+# MUSIC MIXER INFORMATION
 
 DESCRIPTION
 -----------
