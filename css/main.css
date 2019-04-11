@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body
+{
+
+	background-color: #f5f6fa;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 20px;
+	text-align: center;
+}
+
+.hidden{
+	display: none;
+}
+
+#container{
+	margin: 0 auto;
+}
+
+.title h1
+{
+	font-size: 100px;
+	text-align: center;
+ 	line-height: 1.2;
+ 	margin-top: 1em;
+ 	margin-bottom: 1em;
+ 	font-weight: bold;
+ 	color: #008CBA;
+
+}
+
+.dropZone{
+	width: 960px;
+	height: 150px;
+	margin-top: 30px; 
+	margin-bottom: 10px;
+	background-color: #008CBA;
+	border: 4px solid white;
+	border-radius: 8px;
+}
+
+#musicIcons{
+	display: flex;
+	flex-direction: center;
+  	justify-content: space-around;
+}
+
+#musicIcons{
+	width: 1200px;
+	height: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #008CBA;
+}
+
+.reload{
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	background-color: #008CBA;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+
+.heading
+{
+
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #008CBA;
+	font-weight: bolder;
+}
+
+.heading p
+{
+
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #008CBA;
+	
+}
+
+#musicBox
+{
+	display: flex;
+	flex-direction: center;
+	justify-content: space-around;
+}
+
+#background
+{
+	background-image: url(../images/background.jpg);
+	width: 1200px;
+	height: 900px;
+	margin-left: 150px;
+}
+
+
+
+

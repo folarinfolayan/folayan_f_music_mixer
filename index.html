@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Music Mixer</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="container">
+		<div id="background">
+	<div id="mainHeader">
+		</div>
+		<div class="title">
+			<h1> MUSIC MIXER</h1>
+		</div>
+		<section id="musicBox">
+			<div class="dropZone"></div>
+		</section>
+		<div class="heading">
+			<input type="button" class="reload"  value="Refresh" onClick="document.location.reload(true)">
+			<h2>Create a song with these instruments </h2>
+			<p>DRAG AND DROP THE MUSICAL INSTUMENTS OF YOUR CHOICE INTO THE BLUE BOX.</p>
+		</div>
+		<section id="musicIcons">
+			<h2 class="hidden">Music Player Icons</h2>
+				<div class="icon1"><img src="images/Drums.svg" id="drag1" alt="Drums" width="150" height="150"></div>
+				<div class="icon2"><img src="images/Guitar.svg" id="drag2" alt="Guitar" width="150" height="150"></div>
+				<div class="icon3"><img src="images/Saxophone.svg" id="drag3"  alt="Saxophone" width="150" height="150"></div>
+				<div class="icon4"><img src="images/Piano.svg" id="drag4"  alt="Piano" width="150" height="150"></div>
+				<div class="icon5"><img src="images/Violin.svg" id="drag5"  alt="Violin" width="150" height="150"></div>
+				<div class="icon6"><img src="images/Trumpet.svg" id="drag6"  alt="Trumpet" width="150" height="150"></div>
+		</section>
+		</div>
+	</div>
+	<audio src="audio/violin.wav" id="violin" loop></audio>
+	<audio src="audio/guitar.wav" id="guitar" loop></audio>
+	<audio src="audio/saxaphone.wav" id="saxaphone" loop></audio>
+	<audio src="audio/piano.wav" id="piano" loop></audio>
+	<audio src="audio/trumpet.wav" id="trumpet" loop></audio>
+	<audio src="audio/drums.wav" id="drums" loop></audio>
+<script src="js/main.js"></script>
+</body>
+</html>
