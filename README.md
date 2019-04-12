@@ -8,8 +8,8 @@ All three of these mediums will create a multi-media website
 FUNCTIONALITY
 -------------
 The functionality of this website is to allow the user to drag and drop function
-To load audio files and create a one of a kind audio expereince
-Then plays a complied audio track, accompanied by an animation
+To load audio files and create a one of a kind audio expereince.
+Then plays a complied audio track
 
 REFERENCES
 ----------
